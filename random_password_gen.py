@@ -20,6 +20,7 @@ def pw_generator(length, lowercase=True, uppercase=True, digits=True, punctuatio
 
 #  user input for password generation
 def gen_questions():
+    """Asks user for inputs to generate password off of preferences and checks if inputs are valid"""
     prompting = None
     while prompting is None:
         length_choice = input("How many characters should the password be?: ")
